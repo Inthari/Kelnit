@@ -1,5 +1,16 @@
-.main {
-  margin-top: 10px;
+body {
+  background-color: #EEE2DC;
+}
+
+.project .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.project .row .col-lg-4 {
+  flex: 1 1 calc(33.333% - 20px);
+  max-width: calc(33.333% - 20px);
+  margin: 0;
 }
 
 .technologies .row .col-md-1 {
